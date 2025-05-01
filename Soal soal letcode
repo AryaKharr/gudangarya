@@ -1,0 +1,114 @@
+Berikut adalah 10 **soal dasar ala LeetCode** yang dituliskan langsung tanpa harus membuka website:
+
+---
+
+### **1. Two Sum**
+**Deskripsi:**  
+Diberikan array integer `nums` dan integer `target`, kembalikan **indeks** dari dua angka sehingga jumlahnya adalah `target`.
+
+**Contoh:**  
+Input: `nums = [2, 7, 11, 15], target = 9`  
+Output: `[0, 1]`  
+Penjelasan: `nums[0] + nums[1] == 9`
+
+---
+
+### **2. Best Time to Buy and Sell Stock**
+**Deskripsi:**  
+Diberikan array `prices`, di mana `prices[i]` adalah harga saham pada hari ke-i. Temukan keuntungan maksimal jika kamu hanya **membeli dan menjual satu kali**.
+
+**Contoh:**  
+Input: `prices = [7, 1, 5, 3, 6, 4]`  
+Output: `5`  
+Penjelasan: Beli di hari ke-2 (harga 1) dan jual di hari ke-5 (harga 6).
+
+---
+
+### **3. Valid Parentheses**
+**Deskripsi:**  
+Diberikan string yang hanya berisi karakter `'(', ')', '{', '}', '[' dan ']'`, tentukan apakah urutan tanda kurung tersebut valid.
+
+**Contoh:**  
+Input: `s = "({[]})"`  
+Output: `true`
+
+---
+
+### **4. Merge Two Sorted Lists**
+**Deskripsi:**  
+Gabungkan dua linked list yang sudah terurut (ascending) menjadi satu linked list terurut.
+
+**Contoh:**  
+Input: `l1 = [1,2,4], l2 = [1,3,4]`  
+Output: `[1,1,2,3,4,4]`
+
+---
+
+### **5. Palindrome Number**
+**Deskripsi:**  
+Tentukan apakah suatu bilangan integer `x` adalah palindrom (sama jika dibaca dari depan atau belakang).
+
+**Contoh:**  
+Input: `x = 121`  
+Output: `true`  
+Input: `x = -121`  
+Output: `false`
+
+---
+
+### **6. Remove Duplicates from Sorted Array**
+**Deskripsi:**  
+Diberikan array yang sudah terurut, hapus semua elemen duplikat **di tempat (in-place)** dan kembalikan panjang array yang berisi elemen unik.
+
+**Contoh:**  
+Input: `nums = [1,1,2]`  
+Output: `2` dan `nums` diubah menjadi `[1,2,_]`
+
+---
+
+### **7. Valid Anagram**
+**Deskripsi:**  
+Diberikan dua string `s` dan `t`, kembalikan `true` jika `t` adalah anagram dari `s`.
+
+**Contoh:**  
+Input: `s = "anagram", t = "nagaram"`  
+Output: `true`
+
+---
+
+### **8. Implement strStr()**
+**Deskripsi:**  
+Implementasikan fungsi pencarian substring `strStr(haystack, needle)` yang mengembalikan indeks pertama kemunculan `needle` di dalam `haystack`, atau `-1` jika tidak ditemukan.
+
+**Contoh:**  
+Input: `haystack = "hello", needle = "ll"`  
+Output: `2`
+
+---
+
+### **9. Maximum Subarray**
+**Deskripsi:**  
+Diberikan array integer, cari subarray (kontinu) dengan jumlah maksimum.
+
+**Contoh:**  
+Input: `nums = [-2,1,-3,4,-1,2,1,-5,4]`  
+Output: `6`  
+Penjelasan: Subarray `[4,-1,2,1]` punya jumlah maksimum `6`.
+
+---
+
+### **10. FizzBuzz**
+**Deskripsi:**  
+Cetak angka dari 1 ke `n`. Tapi:
+- Jika angka kelipatan 3, cetak `"Fizz"`
+- Jika angka kelipatan 5, cetak `"Buzz"`
+- Jika kelipatan 3 dan 5, cetak `"FizzBuzz"`
+- Selain itu, cetak angka itu sendiri
+
+**Contoh:**  
+Input: `n = 5`  
+Output: `["1", "2", "Fizz", "4", "Buzz"]`
+
+---
+
+Kalau kamu mau versi soal ini dijadikan file latihan (misal `.js`, `.py`, atau `.java`), tinggal bilang saja format bahasa yang kamu pakai. Mau saya bantu mulai dari bahas soal pertama?
